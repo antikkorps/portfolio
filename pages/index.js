@@ -1,10 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
-import styles from '../styles/Home.module.css';
+import '../styles/Home.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
 import Navbar from '../components/navbar/navbar';
+import Maintop from '../components/maintop/maintop';
+import Gallery from '../components/gallery/gallery';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,11 +19,10 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Script
-        src='https://kit.fontawesome.com/2c36e9b7b1.js'
-        crossOrigin='anonymous'
-      />
+      <Script src='/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js' />
       <Navbar />
+      <Maintop />
+      <Gallery />
       <p className='title'>
         <Link href='/posts/first-post'>Read More about me</Link>
       </p>

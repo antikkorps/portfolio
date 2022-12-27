@@ -1,14 +1,15 @@
 import Link from 'next/link';
-import Layout from '../../components/layout';
+import Navbar from '../../components/navbar/navbar';
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <>
+      <Navbar />
       <h1>First Post</h1>
       <p>
         {' '}
         <Link href='/'>Back to home</Link>
       </p>
-    </Layout>
+    </>
   );
 }
