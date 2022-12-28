@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Maintop() {
   return (
     <section className='py-5 text-center container maintop'>
@@ -8,12 +10,15 @@ export default function Maintop() {
             Vous trouverez ici quelques exemples de réalisations.
           </p>
           <p>
-            <a href='#' className='btn btn-secondary my-2 mx-2'>
+            <Link
+              href='#gallery-portfolio'
+              className='btn btn-secondary my-2 mx-2'
+            >
               Voir les réalisations
-            </a>
-            <a href='#' className='btn btn-primary my-2 mx-2'>
+            </Link>
+            <Link href='/contact/form' className='btn btn-primary my-2 mx-2'>
               Contactez-moi!
-            </a>
+            </Link>
           </p>
         </div>
       </div>

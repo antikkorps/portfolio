@@ -1,12 +1,12 @@
 export default function Gallery() {
   return (
-    <div class='album py-5 bg-dark'>
-      <div class='container'>
-        <div class='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5'>
-          <div class='col'>
-            <div class='card shadow-sm'>
+    <div className='album py-5 bg-dark' id='gallery-portfolio'>
+      <div className='container mt-5 mb-5'>
+        <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5'>
+          <div className='col'>
+            <div className='card shadow-sm'>
               <svg
-                class='bd-placeholder-img card-img-top'
+                className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
                 xmlns='https://picsum.photos/200/300?random=1'
@@ -22,36 +22,36 @@ export default function Gallery() {
                 </text>
               </svg>
 
-              <div class='card-body'>
-                <p class='card-text'>
+              <div className='card-body'>
+                <p className='card-text'>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <div class='d-flex justify-content-between align-items-center'>
-                  <div class='btn-group'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='btn-group'>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       View
                     </button>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       Edit
                     </button>
                   </div>
-                  <small class='text-muted'>9 mins</small>
+                  <small className='text-muted'>9 mins</small>
                 </div>
               </div>
             </div>
           </div>
-          <div class='col'>
-            <div class='card shadow-sm'>
+          <div className='col'>
+            <div className='card shadow-sm'>
               <svg
-                class='bd-placeholder-img card-img-top'
+                className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
                 xmlns='https://picsum.photos/200/300?random=2'
@@ -67,36 +67,36 @@ export default function Gallery() {
                 </text>
               </svg>
 
-              <div class='card-body'>
-                <p class='card-text'>
+              <div className='card-body'>
+                <p className='card-text'>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <div class='d-flex justify-content-between align-items-center'>
-                  <div class='btn-group'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='btn-group'>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       View
                     </button>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       Edit
                     </button>
                   </div>
-                  <small class='text-muted'>9 mins</small>
+                  <small className='text-muted'>9 mins</small>
                 </div>
               </div>
             </div>
           </div>
-          <div class='col'>
-            <div class='card shadow-sm'>
+          <div className='col'>
+            <div className='card shadow-sm'>
               <svg
-                class='bd-placeholder-img card-img-top'
+                className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
                 xmlns='https://picsum.photos/200/300?random=3'
@@ -112,37 +112,37 @@ export default function Gallery() {
                 </text>
               </svg>
 
-              <div class='card-body'>
-                <p class='card-text'>
+              <div className='card-body'>
+                <p className='card-text'>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <div class='d-flex justify-content-between align-items-center'>
-                  <div class='btn-group'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='btn-group'>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       View
                     </button>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       Edit
                     </button>
                   </div>
-                  <small class='text-muted'>9 mins</small>
+                  <small className='text-muted'>9 mins</small>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class='col'>
-            <div class='card shadow-sm'>
+          <div className='col'>
+            <div className='card shadow-sm'>
               <svg
-                class='bd-placeholder-img card-img-top'
+                className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
                 xmlns='https://picsum.photos/200/300?random=4'
@@ -158,36 +158,36 @@ export default function Gallery() {
                 </text>
               </svg>
 
-              <div class='card-body'>
-                <p class='card-text'>
+              <div className='card-body'>
+                <p className='card-text'>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <div class='d-flex justify-content-between align-items-center'>
-                  <div class='btn-group'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='btn-group'>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       View
                     </button>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       Edit
                     </button>
                   </div>
-                  <small class='text-muted'>9 mins</small>
+                  <small className='text-muted'>9 mins</small>
                 </div>
               </div>
             </div>
           </div>
-          <div class='col'>
-            <div class='card shadow-sm'>
+          <div className='col'>
+            <div className='card shadow-sm'>
               <svg
-                class='bd-placeholder-img card-img-top'
+                className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
                 xmlns='https://picsum.photos/200/300?random=5'
@@ -203,36 +203,36 @@ export default function Gallery() {
                 </text>
               </svg>
 
-              <div class='card-body'>
-                <p class='card-text'>
+              <div className='card-body'>
+                <p className='card-text'>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <div class='d-flex justify-content-between align-items-center'>
-                  <div class='btn-group'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='btn-group'>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       View
                     </button>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       Edit
                     </button>
                   </div>
-                  <small class='text-muted'>9 mins</small>
+                  <small className='text-muted'>9 mins</small>
                 </div>
               </div>
             </div>
           </div>
-          <div class='col'>
-            <div class='card shadow-sm'>
+          <div className='col'>
+            <div className='card shadow-sm'>
               <svg
-                class='bd-placeholder-img card-img-top'
+                className='bd-placeholder-img card-img-top'
                 width='100%'
                 height='225'
                 xmlns='https://picsum.photos/200/300?random=6'
@@ -248,34 +248,37 @@ export default function Gallery() {
                 </text>
               </svg>
 
-              <div class='card-body'>
-                <p class='card-text'>
+              <div className='card-body'>
+                <p className='card-text'>
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <div class='d-flex justify-content-between align-items-center'>
-                  <div class='btn-group'>
+                <div className='d-flex justify-content-between align-items-center'>
+                  <div className='btn-group'>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       View
                     </button>
                     <button
                       type='button'
-                      class='btn btn-sm btn-outline-secondary'
+                      className='btn btn-sm btn-outline-secondary'
                     >
                       Edit
                     </button>
                   </div>
-                  <small class='text-muted'>9 mins</small>
+                  <small className='text-muted'>9 mins</small>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <h2 className='d-flex justify-content-center subtitle-gallery'>
+        Et tellement d&#39;autres...
+      </h2>
     </div>
   );
 }

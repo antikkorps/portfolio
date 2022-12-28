@@ -37,3 +37,53 @@ img {
 .maintop {
   background-color: white;
 }
+
+/* CONTACTEZ MOI */
+.form_wrapper {
+  padding: 2rem;
+}
+
+/* GALLERY */
+.subtitle-gallery {
+  text-align: center;
+  margin: 2rem;
+  color: white;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin: 3rem;
+  padding: 3rem;
+}
+.messageBox {
+  height: 15vh;
+  width: 30vw;
+}
+
+.image_contact {
+  border-radius: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-top: -10rem;
+}
+
+/* Card */
+.card.text-bg-dark.mb-3 {
+  max-width: 30rem;
+  display: flex;
+  margin: 5rem auto;
+}
+.container-axios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+}

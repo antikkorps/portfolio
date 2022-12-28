@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
       <div className='container-fluid'>
-        <Link className='navbar-brand' href='#'>
+        <Link className='navbar-brand' href='/'>
           Franck Vienot Dev
         </Link>
 
@@ -22,9 +22,9 @@ export default function Navbar() {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
             <li className='nav-item'>
-              <a className='nav-link active' aria-current='page' href='#'>
+              <Link className='nav-link active' aria-current='page' href='/'>
                 Accueil
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
               <a className='nav-link' href='#'>
@@ -67,7 +67,7 @@ export default function Navbar() {
               <a
                 className='nav-link disabled'
                 href='#'
-                tabindex='-1'
+                tabIndex='-1'
                 aria-disabled='true'
               >
                 Disabled
@@ -75,9 +75,9 @@ export default function Navbar() {
             </li>
           </ul>
           <form className='d-flex'>
-            <button className='btn btn-primary' type='submit'>
+            <Link className='btn btn-primary' href='/contact/form'>
               Contactez-moi!
-            </button>
+            </Link>
           </form>
         </div>
       </div>
